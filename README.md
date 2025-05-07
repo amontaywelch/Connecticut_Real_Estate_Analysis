@@ -1,9 +1,8 @@
 # Connecticut Real Estate Investing Strategy
 
-Table of Contents
-
+## Table of Contents
 - [Project Overview](#project-overview)
-- [Executive Summary](#executive-summary)
+- [Tools & Techniques](#tools--techniques)
 - [Insights](#insights)
   - [Seasonal Trends](#seasonal-trends)
   - [Residential Type Volatility](#residential-type-volatility)
@@ -11,50 +10,74 @@ Table of Contents
   - [Opportunistic Investments](#opportunistic-investments)
 - [Recommendations](#recommendations)
 - [Data Limitations](#data-limitations)
+
 ---
-# Project Overview
-This project analyzes Connecticut’s real estate market, with a focus on understanding key trends, volatility across residential types, and identifying lucrative investment opportunities. The analysis includes time series trends, volatility assessments, and the impact of major economic events like recessions and the COVID-19 pandemic.
 
-# Executive Summary
-This project provides actionable insights on Connecticut’s real estate market, including the best times to invest, the volatility of various property types, and which towns and property types present the greatest potential for returns. The analysis is based on over a million property records spanning from 1999 to 2023. By leveraging statistical tools like CAGR, Z-scores, and volatility metrics, I’ve highlighted patterns in the market to guide future investment decisions.
+##  Project Overview
+This project analyzes over **1 million Connecticut property sales from 1999 to 2023** to uncover strategic insights for real estate investment. Using financial and statistical methods like **CAGR, volatility analysis, and time series trends**, it identifies where, when, and what to invest in for optimal returns.
 
-# Insights
-## Seasonal Trends
-June, July, and August are the most active months in the Connecticut real estate market, showing the highest sales volumes and median sale amounts.
-The winter months tend to be quieter, offering an opportunity for investors to purchase properties with potentially lower competition and better deals.
+**Key Insights:**
+- **Best Buy Season:** Winter months (Jan–Feb) offer **20–30% lower median prices** than peak summer
+- **Property Risk Profile:** **Condos have 40.5% higher volatility** than single-family homes — suitable for risk-tolerant investors
+- **Top Growth Towns:** Windsor and Franklin outperformed state averages with **CAGR of 9–11%**
+- **Economic Resilience:** Prices dropped significantly during 2008 and COVID-19 but rebounded within 24 months
+
+---
+
+##  Tools & Techniques
+- **Python (Pandas, NumPy, Matplotlib):** Time series analysis, CAGR & volatility calculations, town segmentation
+- **Excel:** Data cleaning, validation, pivot table summaries
+- **Metrics Used:**
+  - **CAGR** — long-term town-level growth
+  - **Price Volatility** — risk segmentation by property type
+  - **Monthly Trend Analysis** — seasonality-driven timing
+  - **Economic Event Analysis** — shifts during 2008 & COVID-19
+
+---
+
+##  Insights
+
+###  Seasonal Trends
+- June–August = peak sales and median pricing
+- Jan–Feb = best time to buy (**~12% lower pricing**)
 
 ![Monthly Historical Trends](sale_volume_dual.png)
 
+###  Residential Type Volatility
+- Condos: **40.5% volatility** — high risk/reward
+- Single-family homes: lower volatility, more stability
 
-## Residential Type Volatility
-Condos exhibit the highest price volatility, with a significant difference (40.5%) compared to single-family homes, making them a high-risk, high-reward investment.
-While condos have great potential for growth, their market fluctuations need careful consideration.
-
-![Residential Type CAGR](residential_best.png)
+![Residential Type CAGR](residential_best.png)  
 ![Residential Type Volatility](residential_volatility.png)
 
-## Economic Shifts
-The Connecticut real estate market shows significant price volatility during key economic events like the 2008 recession and the COVID-19 pandemic. These economic shifts highlight the importance of timing in real estate investments.
+###  Economic Shifts
+- Price dips in 2008 and 2020 due to recession/pandemic
+- Rebounded within **12–24 months**, proving recovery strength
 
 ![Price Volatility Over Time](volatility_shift.png)
 
-## Opportunistic Investments
-Smaller towns in Connecticut are emerging as promising investment opportunities, with growth potential that may not be immediately apparent compared to larger cities. Towns like Windsor and Franklin are seeing notable growth in property values.
+###  Opportunistic Investments
+- **Windsor** and **Franklin** showed **10.5–11% CAGR** over 20+ years
+- Smaller towns outperforming larger cities with lower competition
 
 ![Top 10 Towns CAGR](town_cagr.png)
 
-# Recommendations
-- **Invest in Winter Months**: Consider purchasing properties during the off-peak winter months to capitalize on reduced competition and potentially lower prices.
+---
 
-- **Risk Mitigation for Condo Investments**: If investing in condos, diversify your portfolio to balance high-risk, high-reward properties with more stable investments.
+##  Recommendations
+- **Buy in Off-Season**: Jan–March prices are **~12% lower** than peak season
+- **Diversify Risk**: Don’t over-index in condos unless balanced with stable assets
+- **Target Emerging Towns**: Focus on Windsor, Franklin, and similar towns with high CAGR
+- **Monitor Recessions**: Temporary dips ≠ long-term damage — use them to enter undervalued markets
 
-- **Explore Smaller Towns**: Investigate emerging markets in smaller towns for potentially high-return investments with less market saturation compared to larger cities.
+---
 
-# Data Limitations
-- The dataset used spans from 1999 to 2023, which may not fully capture more recent market shifts or changes in local economic conditions.
-- There were missing and inconsistent data entries for certain years or property types, which could affect the accuracy of certain insights.
-- The analysis is based solely on property price and sale data, which does not account for other influencing factors like local policies, changes in interest rates, or broader economic trends.
+##  Data Limitations
+- Data ends at 2023; recent market shifts not captured
+- No inclusion of mortgage rates, rental yield, or macroeconomic overlays
+- Some rural town records had missing values or inconsistencies
 
+---
 ---
 
 To view the full Python analysis, [click here.](https://github.com/amontaywelch/ct_real_estate/blob/main/CTrealestate%20(2).ipynb)
