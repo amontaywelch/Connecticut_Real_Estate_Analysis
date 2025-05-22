@@ -45,12 +45,65 @@ This project analyzes over **1 million Connecticut property sales from 1999 to 2
 **Investing Takeaway**: Buying during winter months can reduce acquisition costs by ~$25K, giving investors more room for renovation budgets, yield margins, or faster equity growth. 
 
 
-![Monthly Historical Trends](sale_volume_dual.png)
+![Sales Volume - Dual Chart](sales_volume.png)
+
+### Monthly Investment Opportunity Matrix
+This bubble chart maps each month by:
+ - Median Sale Price (x-axis)
+ - Number of Sales (y-axis)
+ - Total Market Volume (bubble size)
+Dashed lines show average values, creating four zones of investment strategy.
+
+**Top-Left: Best Value Zone**
+Months like October and December combine **high sales volume with below-average prices** - great for investors who want active markets without overpaying.
+
+**Bottom-Left: Bargain Zone**
+**January, February, and March offer the lowest prices**, but with fewer transactions. These are ideal for patient, value-driven investors willing to trade liquidity for deep discounts.
+
+**Top-Right: Peak Season**
+**June through August** are the hottest months - **high demand, high volume, but also high prices**. Great for sellers or volume-driven strategies, less ideal for value-focused buyers.
+
+**Investing Takeaway**: The best investment timing often falls outside of peak season. October and December offer strong opportunity with balanced price and activity, while February and January provide the steepest discounts for risk-tolerant investors.
+
+
+![Sales Volume- Quadrants](best_buying_months_quads.png)
+
+### Investment Score - How It Works
+The Investment Score helps identify which months offer the most favorable conditions for real estate investment by blending three key factors:
+
+Components:
+ - **Price Score**: Lower median sale prices are more attractive to investors - Scaled so that cheaper months score higher.
+ - **Volume Score**: Fewer transactions may signal less competition - Scaled so that lower-volume months score higher.
+ - **Market Opportunity Score**: Measures total transaction volume ($) - Indicates where there’s active buyer/seller interest.
+
+Weights Used:
+ - **Price Score: 30%**
+ - **Volume Score: 40%**
+ - **Market Opportunity Score: 30%**
+These weights reflect an investor strategy that values timing and opportunity, balancing entry cost, market liquidity, and competition.
+
+Final Score:
+Each score is normalized using MinMaxScaler, then combined into a single metric:
+ - **Investment Score** = (0.3 × Price Score) + (0.4 × Volume Score) + (0.3 × Market Opportunity Score)
+
+Why It Matters:
+This score enables a data-driven comparison across months, helping investors:
+ - **Avoid overpriced periods (e.g., peak summer)**
+ - **Enter during lower-competition windows**
+ - **Focus on months with strong market activity**
+
+**Investing Takeaway**: The best time to invest isn’t when the market is hottest — it’s when prices are cold and competition is low. Target January to March for the highest value opportunities.
+
+![Best Investment Months](best_investing_months.png)
+
+---
 
 ###  Residential Type Volatility
 - **Condos are 68% more volatile than single-family homes** (Std. Dev: $1.18M vs $703K), offering high upside potential, ideal for risk-tolerant investors seeking short-term returns.
 - **Single-family homes offer the most price stability**, making them better suited for conservative, long-term investment strategies.
 - **Despite their volatility, condos top our Combined Investment Score**, driven by strong long-term growth (CAGR) and high transaction activity.
+
+![Residential Volatility](residential_volatility_updated.png)
 
 ### How the Combined Score Works
 To rank property types, the following metrics were calculated:
@@ -63,23 +116,51 @@ To rank property types, the following metrics were calculated:
 
 **Investing Takeaway**: Choose based on risk tolerance — condos offer high-growth, high-risk potential, while single-family homes provide more predictable returns and long-term security.
 
-![Residential Type CAGR](residential_best.png)  
-![Residential Type Volatility](residential_volatility.png)
+![Residential Combined Score](best_residential_investments.png)  
+
+---
+
 
 ###  Economic Shifts & Market Resillience
-- Major downturns like 2008 and 2020 triggered price drops of ~15–20%, followed by full recoveries within 12–24 months — proving the Connecticut market’s long-term resilience.
-- Price volatility spiked during both events, reflecting uncertainty and panic selling — but also creating entry points for aggressive investors.
-- Despite temporary slumps, the long-term trend remained upward, with average sale prices nearly doubling since 1999.
+This chart captures the real impact of economic downturns on Connecticut’s housing market — showing how both average sale prices and volatility responded to the 2008 financial crisis and the COVID-19 pandemic.
 
-Investor Takeaway: Use market shocks as strategic entry points. If your investment horizon is 3+ years, downturns may offer rare chances to buy strong assets at a discount.
+What the Data Shows:
+**2008 Recession**
+ - Prices dropped ~$60K (–14.5%) from 2008 to 2010.
+ - Volatility cratered from $1.39M → $930K, reflecting frozen demand and investor hesitation.
 
-![Price Volatility Over Time](volatility_shift.png)
+**COVID-19 Shock (2020)**
+ - Prices initially dipped, but surged +18% in just 2 years - the fastest rebound in two decades.
+ - Volatility exploded past $2.2M, marking the most chaotic year on record before stabilizing.
 
-###  Opportunistic Investments
-- **Windsor and Franklin posted 10.5–11% annual growth** over two decades, more than triple the state median.
-- **Smaller towns consistently outperformed urban centers**, offering higher ROI with less competition and market saturation.
+**What This Means for Investors**:
+Economic shocks don’t collapse the market - they bend it, briefly. Each crisis created a window where prices dropped and volatility spiked, only to recover, or accelerate, shortly after.
 
-![Top 10 Towns CAGR](town_cagr.png)
+**Investing Takeaway**:
+The best time to buy isn’t after a rebound, it’s during the chaos. History shows that smart investors capitalize on fear, entering the market when others pull back.
+
+![Price Volatility Over Time](economical_shift.png)
+
+---
+
+##  Opportunistic Investments
+This section identifies the top-performing towns in Connecticut based on the Compound Annual Growth Rate (CAGR) of average home sale prices from 1999 to 2023.
+
+### What is CAGR?
+ - **CAGR (Compound Annual Growth Rate)** measures the average yearly growth rate of an investment over time, assuming steady, compounding returns.
+ - **Formula: ((End Value / Start Value) ^ (1 / Years)) – 1**
+
+### Key Findings
+ - **Windsor (8.77%) and Greenwich (7.84%)** outperformed all other towns - nearly 60% higher than the state average CAGR of 5.39%.
+ - Other consistent growers include **Branford, New London, and Columbia, all posting over 5% CAGR**.
+ - These towns aren’t **just growing - they’re compounding**. Their price appreciation has been steady, long-term, and resilient across market cycles.
+
+### Why These Towns?
+Windsor and Greenwich benefit from **proximity to major employment hubs (Hartford & NYC), strong household incomes**, and **ongoing residential and economic development**. These fundamentals support **sustained price growth and investment demand**.
+
+**Investor Takeaway**: The best growth isn’t always in the biggest cities. Target emerging towns with strong fundamentals and long-term price momentum, like Windsor and Greenwich, to maximize ROI and build equity faster.
+
+![Top 10 Towns CAGR](town_cagr_updated.png)
 
 ---
 
