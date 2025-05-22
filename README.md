@@ -66,9 +66,12 @@ To rank property types, the following metrics were calculated:
 ![Residential Type CAGR](residential_best.png)  
 ![Residential Type Volatility](residential_volatility.png)
 
-###  Economic Shifts
-- **Market dips during 2008 and COVID-19 were sharp but short-lived**, with median prices rebounding within 12–24 months.
-- **Historical resilience suggests downturns are buying opportunities**, not permanent losses.
+###  Economic Shifts & Market Resillience
+- Major downturns like 2008 and 2020 triggered price drops of ~15–20%, followed by full recoveries within 12–24 months — proving the Connecticut market’s long-term resilience.
+- Price volatility spiked during both events, reflecting uncertainty and panic selling — but also creating entry points for aggressive investors.
+- Despite temporary slumps, the long-term trend remained upward, with average sale prices nearly doubling since 1999.
+
+Investor Takeaway: Use market shocks as strategic entry points. If your investment horizon is 3+ years, downturns may offer rare chances to buy strong assets at a discount.
 
 ![Price Volatility Over Time](volatility_shift.png)
 
