@@ -1,4 +1,4 @@
-# Connecticut Real Estate Investing Strategy
+# 25 Years of CT Real Estate: Timing, Risk, and Town-Level Strategy
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -38,37 +38,37 @@ This project analyzes over **1 million Connecticut property sales from 1999 to 2
 ##  Insights
 
 ###  Seasonal Trends
-- June–August = peak sales and median pricing
-- Jan–Feb = best time to buy (**~12% lower pricing**)
+- **Home prices peak during the summer** - with June through August recording the highest median sales.
+- **Winter offers a strategic entry point** - Homes sell for ~12% less in January & February vs summer months. 
 
 ![Monthly Historical Trends](sale_volume_dual.png)
 
 ###  Residential Type Volatility
-- Condos: **40.5% volatility** — high risk/reward
-- Single-family homes: lower volatility, more stability
+- **Condos are 40% more volatile** than single-family homes: attractive for risk-tolerant investors seeking high risks, high rewards.
+- **Single-family homes offer price stability**, making them better suited for conservative, long-term investments. 
 
 ![Residential Type CAGR](residential_best.png)  
 ![Residential Type Volatility](residential_volatility.png)
 
 ###  Economic Shifts
-- Price dips in 2008 and 2020 due to recession/pandemic
-- Rebounded within **12–24 months**, proving recovery strength
+- **Market dips during 2008 and COVID-19 were sharp but short-lived**, with median prices rebounding within 12–24 months.
+- **Historical resilience suggests downturns are buying opportunities**, not permanent losses.
 
 ![Price Volatility Over Time](volatility_shift.png)
 
 ###  Opportunistic Investments
-- **Windsor** and **Franklin** showed **10.5–11% CAGR** over 20+ years
-- Smaller towns outperforming larger cities with lower competition
+- **Windsor and Franklin posted 10.5–11% annual growth** over two decades, more than triple the state median.
+- **Smaller towns consistently outperformed urban centers**, offering higher ROI with less competition and market saturation.
 
 ![Top 10 Towns CAGR](town_cagr.png)
 
 ---
 
 ##  Recommendations
-- **Buy in Off-Season**: Jan–March prices are **~12% lower** than peak season
-- **Diversify Risk**: Don’t over-index in condos unless balanced with stable assets
-- **Target Emerging Towns**: Focus on Windsor, Franklin, and similar towns with high CAGR
-- **Monitor Recessions**: Temporary dips ≠ long-term damage — use them to enter undervalued markets
+- **Time Your Purchases**: Target January-March to capture median price discounts of ~12%.
+- **Balance Your Portfolio**: Mix volatile assets(condos) with stable assets(single-family homes) to manage risk. 
+- **Invest In High-Growth Towns**: Focus on Windsor, Franklin, and similar emerging markets with strong long-term trends.
+- **Buy The Dip, Strategically**: Economic downturns like 2008 and 2020 created short-term slumps — but long-term growth remained intact.
 
 ---
 
