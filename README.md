@@ -42,14 +42,26 @@ This project analyzes over **1 million Connecticut property sales from 1999 to 2
 - **Winter = lower entry point, less competition**: January and February offer the lowest prices and less buyer traffic, ideal for investors entering undervalued markets.
 - **Sales volume also peaks in summer**: Suggesting more liquidity but also higher competition.
 
-- **Investing Takeaway**: Buying during winter months can reduce acquisition costs by ~$25K, giving investors more room for renovation budgets, yield margins, or faster equity growth. 
+**Investing Takeaway**: Buying during winter months can reduce acquisition costs by ~$25K, giving investors more room for renovation budgets, yield margins, or faster equity growth. 
 
 
 ![Monthly Historical Trends](sale_volume_dual.png)
 
 ###  Residential Type Volatility
-- **Condos are 40% more volatile** than single-family homes: attractive for risk-tolerant investors seeking high risks, high rewards.
-- **Single-family homes offer price stability**, making them better suited for conservative, long-term investments. 
+- **Condos are 68% more volatile than single-family homes** (Std. Dev: $1.18M vs $703K), offering high upside potential, ideal for risk-tolerant investors seeking short-term returns.
+- **Single-family homes offer the most price stability**, making them better suited for conservative, long-term investment strategies.
+- **Despite their volatility, condos top our Combined Investment Score**, driven by strong long-term growth (CAGR) and high transaction activity.
+
+### How the Combined Score Works
+To rank property types, the following metrics were calculated:
+ - **CAGR (%)**: Long-term annual price growth
+ - **Price Score**: Inverse of median price (lower prices = better entry point)
+ - **Volume Score**: Inverse of sales volume (lower volume = less competition)
+ - **Market Opportunity Score**: Based on total sales activity
+ - Each metric was scaled, and the final score was weighted as listed below: 
+ - Combined Score = 60% CAGR + 40% Average Price/Opportunity Score
+
+**Investing Takeaway**: Choose based on risk tolerance — condos offer high-growth, high-risk potential, while single-family homes provide more predictable returns and long-term security.
 
 ![Residential Type CAGR](residential_best.png)  
 ![Residential Type Volatility](residential_volatility.png)
