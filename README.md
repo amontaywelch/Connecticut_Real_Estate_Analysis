@@ -39,11 +39,10 @@ This project analyzes over **1 million Connecticut property sales from 1999 to 2
 
 ###  Seasonal Trends
 - **Home prices peak in summer**: June through August show the highest median sale prices, exceeding winter lows by 12% ($25K difference).
-
 - **Winter = lower entry point, less competition**: January and February offer the lowest prices and less buyer traffic, ideal for investors entering undervalued markets.
-
 - **Sales volume also peaks in summer**: Suggesting more liquidity but also higher competition.
 
+- **Investing Takeaway**: Buying during winter months can reduce acquisition costs by ~$25K, giving investors more room for renovation budgets, yield margins, or faster equity growth. 
 
 
 ![Monthly Historical Trends](sale_volume_dual.png)
