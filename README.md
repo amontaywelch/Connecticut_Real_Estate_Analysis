@@ -1,4 +1,4 @@
-# 25 Years of CT Real Estate: Timing, Risk, and Town-Level Strategy
+# 25 Years of CT Real Estate: Timing The Market, Managing Risk, and Identifying Top Towns
 
 ## Table of Contents
 - [Project Overview](#project-overview)
@@ -7,7 +7,7 @@
   - [Seasonal Trends](#seasonal-trends)
   - [Residential Type Volatility](#residential-type-volatility)
   - [Economic Shifts & Market Resilience](#economic-shifts--market-resilience)
-  - [Opportunistic Investments](#opportunistic-investments)
+  - [Top Towns For Long Term Growth](#top-towns-for-long-term-growth)
 - [Recommendations](#recommendations)
 - [Data Limitations](#data-limitations)
 
@@ -146,7 +146,7 @@ The best time to buy isn’t after a rebound — it’s during the chaos. Histor
 
 ---
 
-## Opportunistic Investments
+## Top Towns For Long Term Growth
 This section identifies the top-performing towns in Connecticut based on the **Compound Annual Growth Rate (CAGR)** of average home sale prices from 1999 to 2023.
 
 ### What is CAGR?
